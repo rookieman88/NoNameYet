@@ -1,0 +1,32 @@
+{
+  "name": "알아서 뭐하게",
+  "version": "0.1.0",
+  "description": "'그' 봇",
+  "main": "Core.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "oasics",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "opusscript": "0.0.3",
+     "superagent": "^4.0.0",
+    "uws": "^99.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-aqua": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    }
+  }
+}
